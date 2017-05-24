@@ -1,0 +1,5 @@
+"Resource: /Users/Nick/Documents/Development/OCAML Practice/binary_tree/binary_tree.ml": "t%7\025J\025\030\028V\145?JWt&\224"
+"Rule: ocaml: ml & cmi -> cmx & o (%=binary_tree )": "\185\213\134\236\183\016\174\027p\149\241\148U\127\"\136"
+"Rule: ocaml: ml -> cmo & cmi (%=binary_tree )": "\t\177zc\023JS\236\211\030#\160\218\004h\219"
+"Rule: ocaml: cmx* & o* -> native (%=binary_tree )": "\222\1460_=\141\019f\006\029\0026f\207&\180"
+"Rule: ocaml dependencies ml (%=binary_tree )": "\165\220}d\249\\\210\135\001?\"F;\247w\150"

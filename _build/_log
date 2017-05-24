@@ -1,0 +1,10 @@
+### Starting build.
+# Target: binary_tree.ml.depends, tags: { extension:ml, file:binary_tree.ml, ocaml, ocamldep, quiet }
+ocamldep.opt -modules binary_tree.ml > binary_tree.ml.depends
+# Target: binary_tree.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:binary_tree.cmo, file:binary_tree.ml, implem, ocaml, quiet }
+ocamlc.opt -c -o binary_tree.cmo binary_tree.ml
+# Target: binary_tree.cmx, tags: { compile, extension:cmx, extension:ml, file:binary_tree.cmx, file:binary_tree.ml, implem, native, ocaml, quiet }
+ocamlopt.opt -c -o binary_tree.cmx binary_tree.ml
+# Target: binary_tree.native, tags: { dont_link_with, extension:native, file:binary_tree.native, link, native, ocaml, program, quiet }
+ocamlopt.opt binary_tree.cmx -o binary_tree.native
+# Compilation successful.
